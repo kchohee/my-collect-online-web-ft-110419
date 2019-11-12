@@ -10,10 +10,3 @@ counter = 0
   end
   return update_arg
 end
-
-languages = [
-  'ruby', 'javascript', 'python', 'objective-c']
-ans = my_collect(languages) do |language|
-  language.upcase
-end
-puts ans
