@@ -1,4 +1,3 @@
-require 'pry'
 def my_collect (collect_arg)
 update_arg = []
 counter = 0
