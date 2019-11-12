@@ -1,7 +1,7 @@
 def my_collect (collect_arg)
 update_arg = []
 counter = 0
-  while counter < collect_arg.size
+  while counter < collect_arg.size #4
    item = collect_arg[counter]
    counter = counter + 1
    item = yield(item)
