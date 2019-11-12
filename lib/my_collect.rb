@@ -6,6 +6,7 @@ counter = 0
    item = collect_arg[counter]
    item = yield(item)
    update_arg << item
+   count++;
   end
   return update_arg
 end
