@@ -11,6 +11,7 @@ counter = 0
 end
 
 languages = ['ruby', 'javascript', 'python', 'objective-c']
-my_collect(languages) do |language|
-  expect(language).to_not eq(nil)
+ans = my_collect(languages) do |language|
+  language.upcase
 end
+puts ans
