@@ -4,7 +4,7 @@ update_arg = []
 counter = 0
   while counter <= collect_arg.size
    item = collect_arg[counter]
-   yield(item)
+   item = yield(item)
    binding.pry
    update_arg << item
   end
