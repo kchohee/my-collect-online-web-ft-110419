@@ -4,7 +4,7 @@ update_arg = []
 counter = 0
   while counter <= collect_arg.size
    item = collect_arg[counter]
-   counter += 1
+   counter = counter + 1
    item = yield(item)
    update_arg << item
   end
