@@ -4,9 +4,9 @@ update_arg = []
 counter = 0
   while counter <= collect_arg.size
    item = collect_arg[counter]
+   counter += 1
    item = yield(item)
    update_arg << item
-   counter += 1
   end
   return update_arg
 end
