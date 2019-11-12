@@ -1,11 +1,10 @@
-require 'pry'
+#require 'pry'
 def my_collect (collect_arg)
 update_arg = []
 counter = 0
   while counter <= collect_arg.size
    item = collect_arg[counter]
    item = yield(item)
-   binding.pry
    update_arg << item
   end
   return update_arg
